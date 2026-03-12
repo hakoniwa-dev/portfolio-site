@@ -40,19 +40,58 @@
       text-align: center;
       padding: 10px 0;
     }
-  </style>  
+nav {
+margin-top: 10px;
+}
+
+nav a {
+color: white;
+margin: 0 10px;
+text-decoration: none;
+font-weight: bold;
+}
+
+.work-card {
+background:white;
+padding:15px;
+margin:15px 0;
+border-radius:8px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+</style>
+  
 </head>
 
 <body>
 　<header>
     <h1>私のポートフォリオ</h1>
-　</header>
+<nav>
+<a href="#works">作品</a>
+<a href="#about">自己紹介</a>
+<a href="#contact">連絡</a>
+</nav>
+</header>
   <main>
+<section id="works">
+
+<h2>作品</h2>
+
+<div class="work-card">
+<h3>作品タイトル</h3>
+<p>ここに作品の説明を書きます</p>
+</div>
+
+<div class="work-card">
+<h3>作品タイトル</h3>
+<p>ここに作品の説明を書きます</p>
+</div>
+
+</section>
     <section>
       <h2>今ご覧いただいているのがポートフォリオページです</h2>
       <p>ここに作品の説明を書きます。今は文字列と簡素な装飾だけです</p>
     </section>
-    <section>
+    <section id="about">
       <h2>自己紹介</h2>
       <p>Web開発ビギナーです</p>
     </section>
@@ -60,6 +99,10 @@
       <button onclick="showMessage()">クリックしてみてください</button>
     </section>
   </main>
+<section id="contact">
+<h2>連絡</h2>
+<p>お問い合わせは準備中です。</p>
+</section>
   <footer>
     <p>© 2026 hakoniwa</p>
   </footer>
